@@ -7,7 +7,7 @@ st.set_page_config(page_title="Modelo de Clasificacion de Impago de Impuesto Pre
 
 @st.cache(allow_output_mutation=True)
 def get_model():
-    return load_model("C:/Users/gchav/OneDrive/Escritorio/Deployment_Impago/modelo_PyCaret_Version_VC")
+    return load_model("Deployment_Impago/modelo_PyCaret_Version_VC")
 
 def predict(model, df):
     predictions = predict_model(model, data = df)

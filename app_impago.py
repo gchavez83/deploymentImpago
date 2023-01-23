@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import numpy as np
+#import numpy as np
 from pycaret.classification import load_model, predict_model
 
 st.set_page_config(page_title="Modelo de Clasificacion de Impago de Impuesto Predial")

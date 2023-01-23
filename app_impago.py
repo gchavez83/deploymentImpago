@@ -15,7 +15,7 @@ def predict(model, df):
 
 model = get_model()
 
-st.title("Modelo de Clasificiación de Impago de Impuesto Predial")
+st.title("Modelo de Clasificación de Impago de Impuesto Predial")
 st.markdown("Elija los valores para cada atributo del modelo de Impago de Impuesto Predial\
             para clasificar el predio en Vigente(1) o No Vigente(0)")
 
